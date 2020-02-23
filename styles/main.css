@@ -1,0 +1,81 @@
+.texto{
+   text-align: center;
+   font-size: 350%;
+   color: #ef5350;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMwftw9DcH_A3EYpABoeLN0a-iUr1PkDWm9Qowlx96QSckPKLY);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+
+}
+
+.descripcion{
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.infoname{
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.infoemail{
+    text-align: center;
+    font-size: 38px;
+}
+
+.infoage{
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group{
+    text-align: center;
+    font-size: 38px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-rol{
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    width: 50%;
+    cursor: pointer;
+}
+.button-submit{
+    font-size: 30px;
+    background-color: deeppink;
+    width: 100%;
+    border: 2px;
+    cursor: pointer;
+}
+
+.input-texarea{
+    text-align: center;
+    width: 60%;
+    padding: 5px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+}
+
+.form-name{
+    width: 26%;
+    padding: 5px;
+}
+
+.form-email{
+    width: 26%;
+    padding: 5px;
+}
+
+.form-number{
+    width: -25%;
+    padding: 5px;
+}

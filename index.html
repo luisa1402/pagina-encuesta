@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Reto2 FCC</title>
+</head>
+<body>
+    <div class="container">
+        <header> 
+            <h1 id="title" class="texto">❤✌Formulario De Encuesta✌❤</h1>
+            <p id="description" class="descripcion">¡¡¡❤Completa nuestra encuesta❤!!!</p>
+        </header>
+        <form id="survey-form">
+            <div class="infoname">
+                <label id="name-label" for="name">Nombre:
+                </label>
+                <input type="text" name="name" id="nombre" class="form-name"
+                placeholder="Escriba su nombre" required>          
+             </div>
+             <div class="infoemail">
+                 <label id="email-label" >Correo:</label>
+                 <input type="email" name="email" id="email" class="form-email" placeholder="Ingrese su Email">
+                </div>
+                <div class="infoage">
+                    <label id="number-label">Edad:
+                        <span class="age">(opcional)</span>
+                    </label>
+                    <input type="number" name="age" id="number" min="10" max="99" class="form-number" placeholder="edad">
+                </div>
+                <div class="form-group">
+                    <p>Seleccione la opcion que mas lo beneficia con su rol?</p>
+                <select id="dropdown" name="rol" class="form-rol">
+                    <option selected value>Seleccione el rol correcto</option>
+                    <option value="student">Estudiante</option>
+                    <option value="trabajador">Trabajador</option>
+                    <option value="learner">Trabajador y estudiante</option>
+                    <option value="other">otro</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Si tienes algún comentario o aporte, por favor escribelo acá</p>
+                <textarea id="comments" class="input-texarea" name="comment" placeholder="Deje su comentario o aporte aquí...."></textarea>
+            </div>
+            <div class="button">
+                <button type="submit" id="submit" class="button-submit">
+                    ❤Enviar❤
+                </button>
+            </div>
+             </div>
+        </form>
+    </div>
+</body>
+</html>
